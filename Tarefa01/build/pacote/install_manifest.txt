@@ -1,0 +1,17 @@
+/home/fei/RoboFeiTarefas/Tarefa01/install/pacote/lib/pacote/talker
+/home/fei/RoboFeiTarefas/Tarefa01/install/pacote/lib/pacote/listener
+/home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/ament_index/resource_index/package_run_dependencies/pacote
+/home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/ament_index/resource_index/parent_prefix_path/pacote
+/home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/pacote/environment/ament_prefix_path.sh
+/home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/pacote/environment/ament_prefix_path.dsv
+/home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/pacote/environment/path.sh
+/home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/pacote/environment/path.dsv
+/home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/pacote/local_setup.bash
+/home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/pacote/local_setup.sh
+/home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/pacote/local_setup.zsh
+/home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/pacote/local_setup.dsv
+/home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/pacote/package.dsv
+/home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/ament_index/resource_index/packages/pacote
+/home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/pacote/cmake/pacoteConfig.cmake
+/home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/pacote/cmake/pacoteConfig-version.cmake
+/home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/pacote/package.xml

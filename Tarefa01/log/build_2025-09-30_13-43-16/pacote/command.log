@@ -1,0 +1,6 @@
+Invoking command in '/home/fei/RoboFeiTarefas/Tarefa01/build/pacote': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fei/RoboFeiTarefas/Tarefa01 -DCMAKE_INSTALL_PREFIX=/home/fei/RoboFeiTarefas/Tarefa01/install/pacote
+Invoked command in '/home/fei/RoboFeiTarefas/Tarefa01/build/pacote' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fei/RoboFeiTarefas/Tarefa01 -DCMAKE_INSTALL_PREFIX=/home/fei/RoboFeiTarefas/Tarefa01/install/pacote
+Invoking command in '/home/fei/RoboFeiTarefas/Tarefa01/build/pacote': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fei/RoboFeiTarefas/Tarefa01/build/pacote -- -j12 -l12
+Invoked command in '/home/fei/RoboFeiTarefas/Tarefa01/build/pacote' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fei/RoboFeiTarefas/Tarefa01/build/pacote -- -j12 -l12
+Invoking command in '/home/fei/RoboFeiTarefas/Tarefa01/build/pacote': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fei/RoboFeiTarefas/Tarefa01/build/pacote
+Invoked command in '/home/fei/RoboFeiTarefas/Tarefa01/build/pacote' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fei/RoboFeiTarefas/Tarefa01/build/pacote

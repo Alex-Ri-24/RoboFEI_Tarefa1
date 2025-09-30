@@ -1,0 +1,152 @@
+[0.000000] (-) TimerEvent: {}
+[0.000976] (pacote) JobQueued: {'identifier': 'pacote', 'dependencies': OrderedDict()}
+[0.001167] (pacote) JobStarted: {'identifier': 'pacote'}
+[0.017974] (pacote) JobProgress: {'identifier': 'pacote', 'progress': 'cmake'}
+[0.019104] (pacote) Command: {'cmd': ['/usr/bin/cmake', '/home/fei/RoboFeiTarefas/Tarefa01', '-DCMAKE_INSTALL_PREFIX=/home/fei/RoboFeiTarefas/Tarefa01/install/pacote'], 'cwd': '/home/fei/RoboFeiTarefas/Tarefa01/build/pacote', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fei'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/fei/.mujoco/mujoco-3.2.7/bin:/usr/lib/nvidia'), ('HOME', '/home/fei'), ('OLDPWD', '/home/fei/RoboFeiTarefas'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1355'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1470'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3794'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fei/RoboFeiTarefas/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fei'), ('JOURNAL_STREAM', '8:2008'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/fei/anaconda3/bin:/opt/ros/humble/bin:/home/fei/.mujoco/mujoco-3.2.7/bin:/usr/lib/nvidia:/home/fei/.cargo/bin:/home/fei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotica:@/tmp/.ICE-unix/1439,unix/robotica:/tmp/.ICE-unix/1439'), ('INVOCATION_ID', 'bd633bd19ece4af5b92ee1d5c28d6a22'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0DYND3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fei/RoboFeiTarefas/install/pacote:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9d6da8db-365e-4137-aa26-da97800fbc7f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fei/RoboFeiTarefas/Tarefa01/build/pacote'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fei/RoboFeiTarefas/install/pacote:/opt/ros/humble')]), 'shell': False}
+[0.098811] (-) TimerEvent: {}
+[0.147048] (pacote) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.198921] (-) TimerEvent: {}
+[0.253149] (pacote) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.270074] (pacote) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299066] (-) TimerEvent: {}
+[0.399498] (-) TimerEvent: {}
+[0.405864] (pacote) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.419817] (pacote) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.420445] (pacote) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.421525] (pacote) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.426029] (pacote) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499663] (-) TimerEvent: {}
+[0.575549] (pacote) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.589629] (pacote) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.590098] (pacote) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.590800] (pacote) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.593532] (pacote) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.599915] (-) TimerEvent: {}
+[0.700331] (-) TimerEvent: {}
+[0.800905] (-) TimerEvent: {}
+[0.840458] (pacote) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.901041] (-) TimerEvent: {}
+[0.969575] (pacote) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.001230] (-) TimerEvent: {}
+[1.024132] (pacote) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.029978] (pacote) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.040922] (pacote) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.056995] (pacote) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.078136] (pacote) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.101496] (-) TimerEvent: {}
+[1.134730] (pacote) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.137891] (pacote) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.201796] (-) TimerEvent: {}
+[1.302420] (-) TimerEvent: {}
+[1.331344] (pacote) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.372634] (pacote) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.402558] (-) TimerEvent: {}
+[1.437125] (pacote) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.447565] (pacote) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.502840] (-) TimerEvent: {}
+[1.600836] (pacote) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.601546] (pacote) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.602973] (-) TimerEvent: {}
+[1.703419] (-) TimerEvent: {}
+[1.745718] (pacote) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.748631] (pacote) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.803666] (-) TimerEvent: {}
+[1.904108] (-) TimerEvent: {}
+[1.918809] (pacote) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.932329] (pacote) StdoutLine: {'line': b'-- Generating done\n'}
+[1.938848] (pacote) StdoutLine: {'line': b'-- Build files have been written to: /home/fei/RoboFeiTarefas/Tarefa01/build/pacote\n'}
+[1.951022] (pacote) CommandEnded: {'returncode': 0}
+[1.952366] (pacote) JobProgress: {'identifier': 'pacote', 'progress': 'build'}
+[1.954555] (pacote) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fei/RoboFeiTarefas/Tarefa01/build/pacote', '--', '-j12', '-l12'], 'cwd': '/home/fei/RoboFeiTarefas/Tarefa01/build/pacote', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fei'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/fei/.mujoco/mujoco-3.2.7/bin:/usr/lib/nvidia'), ('HOME', '/home/fei'), ('OLDPWD', '/home/fei/RoboFeiTarefas'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1355'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1470'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3794'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fei/RoboFeiTarefas/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fei'), ('JOURNAL_STREAM', '8:2008'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/fei/anaconda3/bin:/opt/ros/humble/bin:/home/fei/.mujoco/mujoco-3.2.7/bin:/usr/lib/nvidia:/home/fei/.cargo/bin:/home/fei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotica:@/tmp/.ICE-unix/1439,unix/robotica:/tmp/.ICE-unix/1439'), ('INVOCATION_ID', 'bd633bd19ece4af5b92ee1d5c28d6a22'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0DYND3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fei/RoboFeiTarefas/install/pacote:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9d6da8db-365e-4137-aa26-da97800fbc7f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fei/RoboFeiTarefas/Tarefa01/build/pacote'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fei/RoboFeiTarefas/install/pacote:/opt/ros/humble')]), 'shell': False}
+[2.004258] (-) TimerEvent: {}
+[2.070012] (pacote) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o\x1b[0m\n'}
+[2.071068] (pacote) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[2.104518] (-) TimerEvent: {}
+[2.205108] (-) TimerEvent: {}
+[2.305671] (-) TimerEvent: {}
+[2.406253] (-) TimerEvent: {}
+[2.506733] (-) TimerEvent: {}
+[2.607354] (-) TimerEvent: {}
+[2.707896] (-) TimerEvent: {}
+[2.808455] (-) TimerEvent: {}
+[2.908999] (-) TimerEvent: {}
+[3.009386] (-) TimerEvent: {}
+[3.109804] (-) TimerEvent: {}
+[3.210194] (-) TimerEvent: {}
+[3.310487] (-) TimerEvent: {}
+[3.410870] (-) TimerEvent: {}
+[3.511143] (-) TimerEvent: {}
+[3.611544] (-) TimerEvent: {}
+[3.711955] (-) TimerEvent: {}
+[3.812285] (-) TimerEvent: {}
+[3.912596] (-) TimerEvent: {}
+[4.013005] (-) TimerEvent: {}
+[4.113312] (-) TimerEvent: {}
+[4.213725] (-) TimerEvent: {}
+[4.314135] (-) TimerEvent: {}
+[4.414468] (-) TimerEvent: {}
+[4.514813] (-) TimerEvent: {}
+[4.615227] (-) TimerEvent: {}
+[4.715606] (-) TimerEvent: {}
+[4.815993] (-) TimerEvent: {}
+[4.916248] (-) TimerEvent: {}
+[5.016686] (-) TimerEvent: {}
+[5.117080] (-) TimerEvent: {}
+[5.217465] (-) TimerEvent: {}
+[5.317787] (-) TimerEvent: {}
+[5.336376] (pacote) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[5.417893] (-) TimerEvent: {}
+[5.480010] (pacote) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[5.517992] (-) TimerEvent: {}
+[5.618288] (-) TimerEvent: {}
+[5.718584] (-) TimerEvent: {}
+[5.818913] (-) TimerEvent: {}
+[5.919166] (-) TimerEvent: {}
+[6.019421] (-) TimerEvent: {}
+[6.119714] (-) TimerEvent: {}
+[6.219981] (-) TimerEvent: {}
+[6.320369] (-) TimerEvent: {}
+[6.420599] (-) TimerEvent: {}
+[6.520878] (-) TimerEvent: {}
+[6.621166] (-) TimerEvent: {}
+[6.721451] (-) TimerEvent: {}
+[6.821764] (-) TimerEvent: {}
+[6.922045] (-) TimerEvent: {}
+[7.022285] (-) TimerEvent: {}
+[7.122605] (-) TimerEvent: {}
+[7.222883] (-) TimerEvent: {}
+[7.323197] (-) TimerEvent: {}
+[7.423514] (-) TimerEvent: {}
+[7.523779] (-) TimerEvent: {}
+[7.624117] (-) TimerEvent: {}
+[7.683660] (pacote) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[7.724246] (-) TimerEvent: {}
+[7.824532] (-) TimerEvent: {}
+[7.924765] (-) TimerEvent: {}
+[7.935915] (pacote) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[7.947755] (pacote) CommandEnded: {'returncode': 0}
+[7.948943] (pacote) JobProgress: {'identifier': 'pacote', 'progress': 'install'}
+[7.957959] (pacote) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fei/RoboFeiTarefas/Tarefa01/build/pacote'], 'cwd': '/home/fei/RoboFeiTarefas/Tarefa01/build/pacote', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fei'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/fei/.mujoco/mujoco-3.2.7/bin:/usr/lib/nvidia'), ('HOME', '/home/fei'), ('OLDPWD', '/home/fei/RoboFeiTarefas'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1355'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1470'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3794'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fei/RoboFeiTarefas/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fei'), ('JOURNAL_STREAM', '8:2008'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/fei/anaconda3/bin:/opt/ros/humble/bin:/home/fei/.mujoco/mujoco-3.2.7/bin:/usr/lib/nvidia:/home/fei/.cargo/bin:/home/fei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotica:@/tmp/.ICE-unix/1439,unix/robotica:/tmp/.ICE-unix/1439'), ('INVOCATION_ID', 'bd633bd19ece4af5b92ee1d5c28d6a22'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LD_PRELOAD', '/usr/lib/x86_64-linux-gnu/libGLEW.so'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0DYND3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fei/RoboFeiTarefas/install/pacote:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9d6da8db-365e-4137-aa26-da97800fbc7f'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fei/RoboFeiTarefas/Tarefa01/build/pacote'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fei/RoboFeiTarefas/install/pacote:/opt/ros/humble')]), 'shell': False}
+[7.967605] (pacote) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.967864] (pacote) StdoutLine: {'line': b'-- Installing: /home/fei/RoboFeiTarefas/Tarefa01/install/pacote/lib/pacote/talker\n'}
+[7.968281] (pacote) StdoutLine: {'line': b'-- Set runtime path of "/home/fei/RoboFeiTarefas/Tarefa01/install/pacote/lib/pacote/talker" to ""\n'}
+[7.968493] (pacote) StdoutLine: {'line': b'-- Installing: /home/fei/RoboFeiTarefas/Tarefa01/install/pacote/lib/pacote/listener\n'}
+[7.969915] (pacote) StdoutLine: {'line': b'-- Set runtime path of "/home/fei/RoboFeiTarefas/Tarefa01/install/pacote/lib/pacote/listener" to ""\n'}
+[7.970266] (pacote) StdoutLine: {'line': b'-- Installing: /home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/ament_index/resource_index/package_run_dependencies/pacote\n'}
+[7.970423] (pacote) StdoutLine: {'line': b'-- Installing: /home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/ament_index/resource_index/parent_prefix_path/pacote\n'}
+[7.970560] (pacote) StdoutLine: {'line': b'-- Installing: /home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/pacote/environment/ament_prefix_path.sh\n'}
+[7.970660] (pacote) StdoutLine: {'line': b'-- Installing: /home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/pacote/environment/ament_prefix_path.dsv\n'}
+[7.970768] (pacote) StdoutLine: {'line': b'-- Installing: /home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/pacote/environment/path.sh\n'}
+[7.970866] (pacote) StdoutLine: {'line': b'-- Installing: /home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/pacote/environment/path.dsv\n'}
+[7.970959] (pacote) StdoutLine: {'line': b'-- Installing: /home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/pacote/local_setup.bash\n'}
+[7.971053] (pacote) StdoutLine: {'line': b'-- Installing: /home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/pacote/local_setup.sh\n'}
+[7.971148] (pacote) StdoutLine: {'line': b'-- Installing: /home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/pacote/local_setup.zsh\n'}
+[7.971240] (pacote) StdoutLine: {'line': b'-- Installing: /home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/pacote/local_setup.dsv\n'}
+[7.971330] (pacote) StdoutLine: {'line': b'-- Installing: /home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/pacote/package.dsv\n'}
+[7.971565] (pacote) StdoutLine: {'line': b'-- Installing: /home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/ament_index/resource_index/packages/pacote\n'}
+[7.971883] (pacote) StdoutLine: {'line': b'-- Installing: /home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/pacote/cmake/pacoteConfig.cmake\n'}
+[7.971940] (pacote) StdoutLine: {'line': b'-- Installing: /home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/pacote/cmake/pacoteConfig-version.cmake\n'}
+[7.971974] (pacote) StdoutLine: {'line': b'-- Installing: /home/fei/RoboFeiTarefas/Tarefa01/install/pacote/share/pacote/package.xml\n'}
+[7.972690] (pacote) CommandEnded: {'returncode': 0}
+[7.984157] (pacote) JobEnded: {'identifier': 'pacote', 'rc': 0}
+[7.984557] (-) EventReactorShutdown: {}

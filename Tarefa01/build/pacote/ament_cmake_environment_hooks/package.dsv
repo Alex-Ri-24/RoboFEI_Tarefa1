@@ -1,0 +1,4 @@
+source;share/pacote/local_setup.bash
+source;share/pacote/local_setup.dsv
+source;share/pacote/local_setup.sh
+source;share/pacote/local_setup.zsh

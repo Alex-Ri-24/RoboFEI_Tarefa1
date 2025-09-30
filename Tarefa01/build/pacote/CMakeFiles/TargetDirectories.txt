@@ -1,0 +1,11 @@
+/home/fei/RoboFeiTarefas/Tarefa01/build/pacote/CMakeFiles/uninstall.dir
+/home/fei/RoboFeiTarefas/Tarefa01/build/pacote/CMakeFiles/pacote_uninstall.dir
+/home/fei/RoboFeiTarefas/Tarefa01/build/pacote/CMakeFiles/talker.dir
+/home/fei/RoboFeiTarefas/Tarefa01/build/pacote/CMakeFiles/listener.dir
+/home/fei/RoboFeiTarefas/Tarefa01/build/pacote/CMakeFiles/test.dir
+/home/fei/RoboFeiTarefas/Tarefa01/build/pacote/CMakeFiles/edit_cache.dir
+/home/fei/RoboFeiTarefas/Tarefa01/build/pacote/CMakeFiles/rebuild_cache.dir
+/home/fei/RoboFeiTarefas/Tarefa01/build/pacote/CMakeFiles/list_install_components.dir
+/home/fei/RoboFeiTarefas/Tarefa01/build/pacote/CMakeFiles/install.dir
+/home/fei/RoboFeiTarefas/Tarefa01/build/pacote/CMakeFiles/install/local.dir
+/home/fei/RoboFeiTarefas/Tarefa01/build/pacote/CMakeFiles/install/strip.dir
